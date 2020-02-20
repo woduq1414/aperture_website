@@ -1,0 +1,114 @@
+@keyframes bigger1 {
+    0% {
+        width: 5vw;
+    }
+    100% {
+        width: 20vw;
+    }
+}
+
+@keyframes bigger2 {
+    0% {
+        width: 5vw;
+        right: -30vw;
+        bottom: -50vh;
+        filter:opacity(0%);
+        transform: rotate(0deg);
+    }
+    100% {
+        width: 50vw;
+        right: -10vw;
+        bottom: -16vh;
+        filter:opacity(70%);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes bigger3 {
+    0% {
+        width: 5vw;
+        right: -30vw;
+        bottom: -50vh;
+        filter:opacity(0%);
+        transform: rotate(0deg);
+    }
+    100% {
+        width: 70vw;
+        right: -10vw;
+        bottom: -10vh;
+        filter:opacity(70%);
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+.back {
+    padding-top: 6px;
+}
+
+/* #logo {
+    width: 50vw;
+    position: absolute;
+    bottom: -10vh;
+    right: -10vw;
+    animation-name: bigger2;
+    animation-duration: 2s;
+    /* 제자리에서 커지기
+    top: ;
+    left: 20vw;
+    animation-name: bigger;
+    animation-duration: 2s;
+    
+    width: 300px;
+    z-index: 1; 
+} 
+*/
+
+
+
+#intro > .inner {
+    z-index: 2;
+} 
+
+@media (min-width: 500px) { /*모바일 아님 */
+    #logo {
+        filter:opacity(70%);
+        width: 50vw;
+        position: absolute;
+        bottom: -16vh;
+        right: -10vw;
+        animation-name: bigger2;
+        animation-duration: 2s;
+        /* 제자리에서 커지기
+        top: ;
+        left: 20vw;
+        animation-name: bigger;
+        animation-duration: 2s;
+        
+        width: 300px;
+        z-index: 1; */
+    }
+}
+
+@media (max-width: 500px) { /*모바일 */
+    #logo {
+        filter:opacity(70%);
+        width: 70vw;
+        position: absolute;
+        bottom: -10vh;
+        right: -10vw;
+        animation-name: bigger3;
+        animation-duration: 2s;
+        /* 제자리에서 커지기
+        top: ;
+        left: 20vw;
+        animation-name: bigger;
+        animation-duration: 2s;
+        
+        width: 300px;
+        z-index: 1; */
+    }
+}
+
+/* 뭔가 이상하다 */
