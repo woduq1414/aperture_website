@@ -1,9 +1,78 @@
-@keyframes bigger1 {
+/* @keyframes bigger1 {
     0% {
         width: 5vw;
     }
     100% {
         width: 20vw;
+    }
+} */
+
+@-moz-keyframes bigger2 {
+    0% {
+        width: 5vw;
+        right: -30vw;
+        bottom: -50vh;
+        filter:opacity(0%);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        width: 50vw;
+        right: -10vw;
+        bottom: -16vh;
+        filter:opacity(70%);
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@-webkit-keyframes bigger2 {
+    0% {
+        width: 5vw;
+        right: -30vw;
+        bottom: -50vh;
+        filter:opacity(0%);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        width: 50vw;
+        right: -10vw;
+        bottom: -16vh;
+        filter:opacity(70%);
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@-ms-keyframes bigger2 {
+    0% {
+        width: 5vw;
+        right: -30vw;
+        bottom: -50vh;
+        filter:opacity(0%);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        width: 50vw;
+        right: -10vw;
+        bottom: -16vh;
+        filter:opacity(70%);
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg);
     }
 }
 
@@ -13,6 +82,9 @@
         right: -30vw;
         bottom: -50vh;
         filter:opacity(0%);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
         transform: rotate(0deg);
     }
     100% {
@@ -20,6 +92,78 @@
         right: -10vw;
         bottom: -16vh;
         filter:opacity(70%);
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@-moz-keyframes bigger3 {
+    0% {
+        width: 5vw;
+        right: -30vw;
+        bottom: -50vh;
+        filter:opacity(0%);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        width: 70vw;
+        right: -10vw;
+        bottom: -10vh;
+        filter:opacity(70%);
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@-webkit-keyframes bigger3 {
+    0% {
+        width: 5vw;
+        right: -30vw;
+        bottom: -50vh;
+        filter:opacity(0%);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        width: 70vw;
+        right: -10vw;
+        bottom: -10vh;
+        filter:opacity(70%);
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@-ms-keyframes bigger3 {
+    0% {
+        width: 5vw;
+        right: -30vw;
+        bottom: -50vh;
+        filter:opacity(0%);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        width: 70vw;
+        right: -10vw;
+        bottom: -10vh;
+        filter:opacity(70%);
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
         transform: rotate(-360deg);
     }
 }
@@ -30,6 +174,9 @@
         right: -30vw;
         bottom: -50vh;
         filter:opacity(0%);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
         transform: rotate(0deg);
     }
     100% {
@@ -37,6 +184,9 @@
         right: -10vw;
         bottom: -10vh;
         filter:opacity(70%);
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
         transform: rotate(-360deg);
     }
 }
@@ -78,7 +228,13 @@
         position: absolute;
         bottom: -16vh;
         right: -10vw;
+        -moz-animation-name: bigger2;
+        -webkit-animation-name: bigger2;
+        -ms-animation-name: bigger2;
         animation-name: bigger2;
+        -moz-animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        -ms-animation-duration: 2s;
         animation-duration: 2s;
         /* 제자리에서 커지기
         top: ;
@@ -98,7 +254,13 @@
         position: absolute;
         bottom: -10vh;
         right: -10vw;
+        -moz-animation-name: bigger3;
+        -webkit-animation-name: bigger3;
+        -ms-animation-name: bigger3;
         animation-name: bigger3;
+        -moz-animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        -ms-animation-duration: 2s;
         animation-duration: 2s;
         /* 제자리에서 커지기
         top: ;
@@ -112,3 +274,4 @@
 }
 
 /* 뭔가 이상하다 */
+/* 뭣이 이상하ㅈ*/
