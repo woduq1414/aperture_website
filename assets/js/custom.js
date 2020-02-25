@@ -136,3 +136,8 @@ lightbox.option({
     'disableScrolling' : true,
     'wrapAround': true
 })
+
+
+    /*스크롤바*/
+
+    
