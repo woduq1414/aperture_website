@@ -121,49 +121,18 @@ $('#vDom').css('left',$('#catImage2').css('left'))
 
 
 
-// let timer;
-
-// function checkVisible(elm) {
-//     return 1;
-//   }
-// $(window).on('scroll', function(){ 
-    
-//     if(checkVisible($("#vDom"))){
-//         clearTimeout( timer ); 
-//         timer = setTimeout(function(){
-//             console.log("SDF")
-//             let val = $('input.range').val() * 1 >= 100 ? -100 : $('input.range').val() *1 + 25 >= 100 ? 100 : $('input.range').val() *1 + 25;
-//             // $("#catImage2").animate({ filter : `blur(${-(val / 20) + 2 }px)`});
-//             // $("#vDom").animate({ backgroundColor : `rgba(0,0,0,${(val/ 300) })`});
-//             $("input.range").animate({value: val}, 250);
-//             $("#catImage2").css("filter", `blur(${-(val / 20) + 2 }px)`);
-//             $("#vDom").css("background-color", `rgba(0,0,0,${(val/ 300) })`)
-            
-            
-//         }, 250);
-//     }
-    
-// });
-
-
-
-
-// $(document).scroll(function () {
-//     var scrollTop = $(document).scrollTop();
-//     if (scrollTop < currentScrollTop) {
-//         if (!previousScrollDir) {
-//           console.log('scrolled up');
-//           $("input.range").animate({value: $('input.range').val() - 10});
-//           previousScrollDir = true;
-//         }
-//     } else {
-//         if (previousScrollDir) {
-//           console.log('scrolled down');
-//           $("input.range").animate({value: $('input.range').val() + 10});
-//           previousScrollDir = false;
-//         }
-//     }
-//     currentScrollTop = scrollTop;
-// });
-
 AOS.init();
+
+
+// $('.imgSmall').on("click", function(){
+//     let src = $(this).attr('src');
+//     Swal.fire({
+//         imageUrl: src,
+//         imageAlt: 'A tall image'
+//     })
+// })
+lightbox.option({
+    'resizeDuration': 500,
+    'disableScrolling' : true,
+    'wrapAround': true
+})

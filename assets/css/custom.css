@@ -446,3 +446,14 @@ body, html {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+
+/* lightbox modal */
+
+/* .lb-outerContainer {
+  width : 80% 
+} */
+
+a {
+  text-decoration: none;
+}
