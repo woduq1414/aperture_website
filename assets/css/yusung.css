@@ -12,7 +12,7 @@
         width: 5vw;
         right: -30vw;
         bottom: -50vh;
-        filter:opacity(0%);
+        filter: opacity(0%);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -22,7 +22,7 @@
         width: 50vw;
         right: -10vw;
         bottom: -16vh;
-        filter:opacity(70%);
+        filter: opacity(70%);
         -webkit-transform: rotate(-360deg);
         -moz-transform: rotate(-360deg);
         -ms-transform: rotate(-360deg);
@@ -35,7 +35,7 @@
         width: 5vw;
         right: -30vw;
         bottom: -50vh;
-        filter:opacity(0%);
+        filter: opacity(0%);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -45,7 +45,7 @@
         width: 50vw;
         right: -10vw;
         bottom: -16vh;
-        filter:opacity(70%);
+        filter: opacity(70%);
         -webkit-transform: rotate(-360deg);
         -moz-transform: rotate(-360deg);
         -ms-transform: rotate(-360deg);
@@ -58,7 +58,7 @@
         width: 5vw;
         right: -30vw;
         bottom: -50vh;
-        filter:opacity(0%);
+        filter: opacity(0%);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -68,7 +68,7 @@
         width: 50vw;
         right: -10vw;
         bottom: -16vh;
-        filter:opacity(70%);
+        filter: opacity(70%);
         -webkit-transform: rotate(-360deg);
         -moz-transform: rotate(-360deg);
         -ms-transform: rotate(-360deg);
@@ -81,7 +81,7 @@
         width: 5vw;
         right: -30vw;
         bottom: -50vh;
-        filter:opacity(0%);
+        filter: opacity(0%);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -91,7 +91,7 @@
         width: 50vw;
         right: -10vw;
         bottom: -16vh;
-        filter:opacity(70%);
+        filter: opacity(70%);
         -webkit-transform: rotate(-360deg);
         -moz-transform: rotate(-360deg);
         -ms-transform: rotate(-360deg);
@@ -104,7 +104,7 @@
         width: 5vw;
         right: -30vw;
         bottom: -50vh;
-        filter:opacity(0%);
+        filter: opacity(0%);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -114,7 +114,7 @@
         width: 70vw;
         right: -10vw;
         bottom: -10vh;
-        filter:opacity(70%);
+        filter: opacity(70%);
         -webkit-transform: rotate(-360deg);
         -moz-transform: rotate(-360deg);
         -ms-transform: rotate(-360deg);
@@ -127,7 +127,7 @@
         width: 5vw;
         right: -30vw;
         bottom: -50vh;
-        filter:opacity(0%);
+        filter: opacity(0%);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -137,7 +137,7 @@
         width: 70vw;
         right: -10vw;
         bottom: -10vh;
-        filter:opacity(70%);
+        filter: opacity(70%);
         -webkit-transform: rotate(-360deg);
         -moz-transform: rotate(-360deg);
         -ms-transform: rotate(-360deg);
@@ -150,7 +150,7 @@
         width: 5vw;
         right: -30vw;
         bottom: -50vh;
-        filter:opacity(0%);
+        filter: opacity(0%);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -160,7 +160,7 @@
         width: 70vw;
         right: -10vw;
         bottom: -10vh;
-        filter:opacity(70%);
+        filter: opacity(70%);
         -webkit-transform: rotate(-360deg);
         -moz-transform: rotate(-360deg);
         -ms-transform: rotate(-360deg);
@@ -173,7 +173,7 @@
         width: 5vw;
         right: -30vw;
         bottom: -50vh;
-        filter:opacity(0%);
+        filter: opacity(0%);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -183,7 +183,7 @@
         width: 70vw;
         right: -10vw;
         bottom: -10vh;
-        filter:opacity(70%);
+        filter: opacity(70%);
         -webkit-transform: rotate(-360deg);
         -moz-transform: rotate(-360deg);
         -ms-transform: rotate(-360deg);
@@ -213,15 +213,14 @@
 } 
 */
 
-
-
 #intro > .inner {
     z-index: 2;
-} 
+}
 
-@media (min-width: 500px) { /*모바일 아님 */
+@media (min-width: 500px) {
+    /*모바일 아님 */
     #logo {
-        filter:opacity(70%);
+        filter: opacity(70%);
         width: 50vw;
         position: absolute;
         bottom: -16vh;
@@ -245,9 +244,10 @@
     }
 }
 
-@media (max-width: 500px) { /*모바일 */
+@media (max-width: 500px) {
+    /*모바일 */
     #logo {
-        filter:opacity(70%);
+        filter: opacity(70%);
         width: 70vw;
         position: absolute;
         bottom: -10vh;
@@ -269,6 +269,26 @@
         width: 300px;
         z-index: 1; */
     }
+}
+
+.section {
+    padding: 3em 3em 3em 3em;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.todo-img1 {
+    width: 16vw;
+    margin-right: 5vw;
+}
+
+.todo-img2 {
+    width: 16vw;
 }
 
 /* 뭔가 이상하다 */
