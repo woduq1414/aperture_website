@@ -1,3 +1,8 @@
+
+
+
+
+
 var inputRange = document.getElementsByClassName('range')[0],
     maxValue = 100, // the higher the smoother when dragging
     speed = 5,
@@ -140,4 +145,4 @@ lightbox.option({
 
     /*스크롤바*/
 
-    
+
