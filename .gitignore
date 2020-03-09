@@ -1,1 +1,5 @@
 *.txt
+gulpfile.babel.js
+/node_modules
+.babelrc
+.json
